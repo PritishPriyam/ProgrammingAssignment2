@@ -5,7 +5,8 @@
 
 ## Write a short comment describing this function
 ## We've included the functions to set and get the values of 
-## the matrix.
+## the matrix, and ultimately this function helps to get the inverse 
+## and store it for caching purposes.
 makeCacheMatrix <- function(x = matrix()) {
         inv_mat <- NULL
         set <- function(y) {
